@@ -42,7 +42,7 @@ unique(diabetes)
 glimpse(diabetes)
 names(diabetes)
 
-# Diabetes Outcome summary for diabetic or non-diabetic
+# Diabetes Outcome summary for diabetic or non-diabetic patients
 table(diabetes$Outcome) %>% 
   view() 
 
